@@ -15,5 +15,5 @@ print (ds.head(15))
 count_nan = ds.isnull().sum()
 print(count_nan[count_nan>0])
 
-#filling null numbers
+#filling null numeb
 ds['bmi'].fillna(ds['bmi'].mean(), inplace = True)
